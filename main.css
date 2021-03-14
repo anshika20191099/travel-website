@@ -1,0 +1,97 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+body{
+    font-family: 'Source Code Pro', monospace;
+    background-image:url('/images/background.jpg');
+    background-size: cover;
+
+    /*height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    object-fit: cover;--*/
+
+}
+
+/*==Nvbar==*/
+.bg{
+    background: #077cb3;
+}
+.main-navbar-light
+{
+    background: transparent!important;
+    position: absolute;
+    left:0;
+    right:0;
+    z-index:3;
+    top: 10px;
+}
+/*===End of Navbar==*/
+/*===Hero of section==*/
+.hero-wrap
+{
+    width:100%;
+    height: 850px;
+    position: relative;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: top center;
+    z-index:0;
+}
+.hero-wrap .overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    content:"";
+    opacity: .5;
+    background: #077cb3;
+    height: 850px;
+}
+.hero-wrap .main-text{
+    height:500px!important;
+
+}
+.main-text h1{
+    font-size:40px;
+    color:rgb(2, 2, 2);
+    line-height:1.1;
+    font-weight: bold;
+    
+}
+.main-text p{
+    line-height: 1.5;
+   color:rgb(109, 7, 7);
+}
+.btn-hero{
+    background-color: #3939d8!important;
+    color:rgb(253, 247, 247)!important;
+    margin-right:5px;
+    margin-left:5px;
+    animation:skew 3s infinite;
+    animation-direction: normal;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    padding:5px 17px;
+}
+@keyframes skew{
+    0%{
+        transform: skewX(20deg);
+    }
+    100%{
+        transform: skewX(-20deg);
+    }
+}
+
+
+
+
+
+
+
+
+/*===End of hero section==*/
