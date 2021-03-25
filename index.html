@@ -8,8 +8,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <title>Tourismo</title>
-    <link rel="stylesheet"href="main.css">
+    <title>Travel nation</title>
+    <link rel="stylesheet"href="main.css">\
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
       <nav class="navbar navbar-expand-lg navbar-light main-navbar
       bg m-navbar-light" id="main-navbar">
        <div class="container">
-           <a class="navbar-brand"href="#">Tourismo</a>
+           <a class="navbar-brand"href="#">Travel nation</a>
            <button class="navbar-toggler"type="button"data-toggle="collapse"
            data-target="#my-nav"aria-controls="p-nav"aria-expanded="false"
            aria-label="toggle-navigation">
@@ -36,15 +36,10 @@
                 <li class="nav-item">
                     <a href="#"class="nav-link">Popular Places</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-itesm">
                     <a href="#"class="nav-link">Historical Places</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#"class="nav-link">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#"class="nav-link">Contact</a>
-                </li>
+                
             </ul>
         </div>
            
@@ -60,7 +55,7 @@
         <div class="row no-gutters main-text align-items-center">
             <div class="col-lg-7 col-md-6 d-flex align-items-end">
                 <div class="text">
-                    <h1 class="mb-4 text-capitalize">find a perfect deal<br>
+                    <h1 class="mb-4 text-capitalize">Experience the joy<br>
                         for your next trip
                       </h1>
                       <p style="font-size:18px;">
@@ -85,7 +80,7 @@
               data-toggle="pill" href="#v-pills-home" role="tab"
                aria-controls="v-pills-home" aria-selected="true">Flights</a>
 
-              <a class="nav-link p-3" id="v-pills-profile-tab"
+              <a class="nav-link p-3 " id="v-pills-profile-tab"
                data-toggle="pill" href="#v-pills-profile" role="tab" 
                aria-controls="v-pills-profile" aria-selected="false"> Hotels</a>
               <a class="nav-link p-3" id="v-pills-messages-tab" 
@@ -122,21 +117,703 @@
                       </div>
 
 
+                      <input type="submit" class="search-submit btn btn-primary" value="Find Flights">
+                    </form>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                  <div class="block-17">
+                    <form action="" method="post" class="d-block d-lg-flex">
+                      <div class="fields d-block d-lg-flex">
+                        <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Hotel"></div>
+    
+                        <div class="check-in one-third"><input type="text" id="checkin_date" class="form-control" placeholder="Check-in date"></div>
+
+ <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
+                    <div class="select-wrap one-third">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Hotels">
+                </form>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+                    <div class="check-in one-third"><input type="text" id="start_date" class="form-control" placeholder="Start date"></div>
+
+                    <div class="check-out one-third"><input type="text" id="return_date" class="form-control" placeholder="Return date"></div>
+                    <div class="select-wrap one-third">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+
+
+<input type="submit" class="search-submit btn btn-primary" value="Find Car">
+                </form>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third one-third-1"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+
+                    <div class="check-out one-third one-third-1"><input type="text" id="start_date" class="form-control" placeholder="Check-out date"></div>
+
+                    <div class="select-wrap one-third one-third-1">
+                      <div class="icon"></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Categories</option>
+                        <option value="">Suite</option>
+                        <option value="">Super Deluxe</option>
+                        <option value="">Economy</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Cruise">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!---End of Search section-->
+<!---Welcome/about section-->
+<section class="about-section mt-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center heading-section mb-5">
+                <h2 class="text-black mb-2">Welcome To The Travel World</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi a debitis et dolore ipsam minus voluptatum dolorum corporis doloremque ea.</p>
+            </div>
+        </div>
+        <div class="row img-wrap mb-5 mb-lg-0">
+            <div class="col-12">
+                <div class="row">
+                    <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
+                        <a href="#" class="effect">
+                            <img src="images/culture.jpg"alt=""
+                            class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
+                        <h2 class="text-black">Culture</h2>
+                        <p class="mb-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima amet, assumenda aliquid temporibus molestiae.
+                        </p>
+                        <a href="#"class="btn btn-about">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------->
+        <div class="row img-wrap mb-5 mb-lg-0">
+            <div class="col-12">
+                <div class="row">
+                    <div class="mb-4 margin-lg-0 col-lg-6">
+                        <a href="#" class="effect">
+                            <img src="images/history.jpg"alt=""
+                            class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-5 ml-auto align-self-center order-lg-1">
+                        <h2 class="text-black">History</h2>
+                        <p class="mb-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima amet, assumenda aliquid temporibus molestiae.
+                        </p>
+                        <a href="#"class="btn btn-about">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------->
+        <div class="row img-wrap mb-5 mb-lg-0">
+            <div class="col-12">
+                <div class="row">
+                    <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
+                        <a href="#" class="effect">
+                            <img src="images/natur.jpg"alt=""
+                            class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
+                        <h2 class="text-black">Nature</h2>
+                        <p class="mb-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima amet, assumenda aliquid temporibus molestiae.
+                        </p>
+                        <a href="#"class="btn btn-about">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------->
+    </div>
+</section>
+<!------------->
+<!---Popular Places-->
+<section>
+      <!-- Popular Places -->
+      <div class="popular section-bg img-effect mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+        <div class="section-title text-center">                      
+          <h1 class="text-white">Popular Places </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ End of Popular Places-->
+    <!-- Other Popular  -->
+    <div class="all-image">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-md-5">
+                    <div class="single-img">
+                        <div class="img-thumb">
+                            <img src="images/Eiffel.jpg" alt="">
+                        </div>
+                        <div class="img-hover">
+                            <div class="title">
+                                    <h3>Eiffel Tower</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-md-7">
+                    <div class="single-img">
+                        <div class="img-thumb">
+                            <img src="images/maldives.jpg" alt="">
+                        </div>
+                        
+                        <div class="img-hover">
+                            <div class="title">
+                                    <h3>Maldives</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single-img radial">
+                        <div class="img-thumb">
+                            <img src="images/norway.jpg" alt="">
+                        </div>
+                       <div class="img-hover">
+                        <div class="title">
+                        <h3>Norway</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single-img radial">
+                        <div class="img-thumb">
+                            <img src="images/italy.jpg" alt="">
+                        </div>
+                         <div class="img-hover">
+                            <div class="title">
+                                    <h3>Italy</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-12 col-lg-4">
+                    <div class="single-img radial">
+                        <div class="img-thumb">
+                            <img src="images/goa.jpg" alt="">
+                        </div>
+                     <div class="img-hover">
+                            <div class="title">
+                                    <h3>GOA</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              </div>
+    </div>
+  
+    </section>
+<!--end of Popular Places-->
+<!---services Section-->
+<section id="services" class="services section-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="section-title">
+                    <h2>Services We Provide</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, rem ad id aspernatur dolores animi!
+                    </p>
+                </div>
+            </div>
+            <!----->
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-stretch">
+                        <div class="icon-circle purple">
+                            <div class="icon">
+                                <i class="fas fa-drumstick-bite"></i>
+                            </div>
+                            <h4 class="text-white">Good Food</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quia.</p>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                        <div class="icon-circle pink">
+                            <div class="icon">
+                                <i class="fas fa-umbrella-beach"></i>
+                            </div>
+                            <h4 class="text-white">Beach Resort</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quia.</p>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-md-6 d-flex align-items-stretch mt-4">
+                        <div class="icon-circle yellow">
+                            <div class="icon">
+                                <i class="fas fa-hiking"></i>
+                            </div>
+                            <h4 class="text-white">Adventure rides</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quia.</p>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-md-6 d-flex align-items-stretch mt-4">
+                        <div class="icon-circle blue">
+                            <div class="icon">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                            <h4 class="text-white">Hot Air Ballon</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quia.</p>
+                        </div>
+                    </div>
+                    <!---->
+    
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---End of Services Section-->
+<!--- Team Section-->
+<section class="team section-bg mt-5">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="text-center">IN CONSULT WITH GREAT TRAVEL VLOGGERS </h2>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eius, maiores reiciendis suscipit aspernatur delectus.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/tanya.jpg"class="img-fluid"alt="">
+                        <div class="social">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="member-info">
+                        <h4>Tanya</h4>
+                        
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/kritika goel.jpg"class="img-fluid"alt="">
+                        <div class="social">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="member-info">
+                        <h4>kritika goel</h4>
+                        
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/ronnie.jpg"class="img-fluid"alt="">
+                        <div class="social">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="member-info">
+                        <h4>Ronnie and Barty</h4>
+                        
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/yatri.jpg"class="img-fluid"alt="">
+                        <div class="social">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="member-info">
+                        <h4>YATRI</h4>
+                       
+                    </div>
+                </div>
+            </div>
+            <!---->
 
 
 
+        </div>
+    </div>
+</section>
+<!---End of Team Section-->
+<!---Package Section-->
+<section class="package section-padding mt-3">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-5">
+                <div class="section-title text-center">
+                    <h2 class="py-3">Packages We Offer</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xl-6">
+                <div class="package-1">
+                    <img src="images/food.jpg"class="img-fluid"alt="">
+                    <div class="package-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus est hic, dolor ab eos voluptatibus.</p>
+                        <a href="#"class="btn-package p-2">stay and food</a>
+                    </div>
+                </div>
+            </div>
+            <!----->
+            <div class="col-md-6 col-xl-6">
+                <div class="package-1">
+                    <img src="images/mountain climb.jpg"class="img-fluid"alt="">
+                    <div class="package-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus est hic, dolor ab eos voluptatibus.</p>
+                        <a href="#"class="btn-package p-2">Whole trip plans</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---End of Package Section-->
+<!--- Historical Places Section-->
+<section class="mt-2">
+    <div class="historical-places">
+        <div class="container">
+            <div class="row-justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center mb-70">
+                        <h3 class="text-uppercase text-center">historical places</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis laboriosam totam animi nesciunt cum voluptates.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="images/taj mahal.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">$30</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Taj mahal</h3>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(18 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">5 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="images/paris france.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">$100</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>PARIS</h3>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(100 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">1 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="images/science world canada.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">$300</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>science world canada</h3>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="images/singa.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">$50</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Singapore</h3>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(10 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">20 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="images/statue of liberty.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">$300</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Statue of liberty</h3>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(35 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">27 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-dest">
+                        <div class="thumb">
+                            <img src="images/sydney.jpg"class="img-fluid"alt="">
+                            <a href="#"class="price">$20</a>
+                        </div>
+                        <div class="dest-info">
+                            <a href="#">
+                                <h3>Sydney</h3>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="rating d-flex justify-content-between">
+                          <span class="d-flex justify-content-center align-items-center">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <a href="#">(14 Review)</a>
+                          </span>
+                          <div class="days">
+                              <i class="fas fa-clock-o">
+                                  <a hrf="#">2 Days</a>
+                              </i>
+                          </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------>
+                
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="btn-hist text-center ">
+                      <div><a href="#" class="btn btn-hist">More Places</a></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!---End of Historical Places Section-->
 
+<!------>
+<section class="instagram mt-5 bg-c">
+    <div class="container-fluid">
+        <div class="row no-gutters justify-content-center pb-5">
+            <div class="col-md-7 text-center heading-section">
+               <a href="https://www.instagram.com/anshie63/?hl=en">
+                 <h2><span>Instagram</span></h2>
+                 </a>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md">
+            <a href="https://www.instagram.com/anshie63/?hl=en">
+              <i class="ins in-instagram-i"></i></a>
+                              <div class="icon d-flex justify-content-center">
+                    <span class="icon-instagram align-self-center"></span>
+                </div>
+            </div>
+            <!----->
+            <div class="col-sm-12 col-md">
+                <img src="images/anshika.jpg"class="img-fluid">
+                <div class="icon d-flex justify-content-center">
+                    <span class="icon-instagram align-self-center"></span>
+                </div>
+            </div>
+            
+             <!----->
+        </div>
 
-
-
-
-
-
-
-
-
-
-
+    </div>
+</section>
+<!---->
+<footer id="footer">
+    <div class="footer-newsletter">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h4>NEWS UPDATES</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <form>
+                        <input type="email"name="email">
+                        <input type="submit"value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div class="container py-4">
+      <div class="copyright">
+          &copy;Copyright<strong><span>#Me TRAVEL </span></strong>
+          .All Rights Reserved
+      </div>
+      <div class="credits">
+          Designed by<a href="#">ANSHIKA MISHRA</a>
+      </div>
+  </div>
+</footer>
 
 
    
